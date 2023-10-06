@@ -1,0 +1,58 @@
+#header__top__section {
+    display: flex;
+    width: auto;
+    height: 800px;
+}
+
+#header__top--aside {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 6vh;
+    background-color: #eee;
+}
+
+#header__top--aside h1{
+    padding: 6vh 8vh;
+    margin-top: 20vh;
+}
+
+#header__top--aside h2{
+    padding: 2vh 10vh;
+}
+
+#header__top--aside button {
+    margin: auto;
+    height: 12vh;
+    width: 24vh;
+    border: none;
+    background-color: #333;
+    border-radius: 2.5rem;
+    color: #eee;
+    font-size: x-large;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+#header__top--aside button:hover {
+    background-color: #888;
+}
+
+
+#header__top--image {
+    width: 60%;
+    background-image: url(../media/levi-meir-clancy-XpxRqoyUcVw-unsplash.jpg) ;
+    background-size: cover;
+}
+
+#header__bottom__section {
+    height: fit-content;
+    width: auto;
+    background-color: #333;
+}
+
+#header__bottom__section h2 {
+    color: #eee;
+    padding: 8vh;
+}
